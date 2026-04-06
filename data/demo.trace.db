@@ -3394,3 +3394,18 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: /Users/adikansal
 2026-04-07 00:39:16.987645+05:30 jdbc[83]: exception
 org.h2.jdbc.JdbcSQLDataException: Value too long for column "BODY CHARACTER VARYING(255)": "U&'Dear Gaziabad,\\000a\\000aWelcome to the Vartaalap Banking family!\\000a\\000aOur... (766)"; SQL statement:
 insert into system_notification (body,recipient,sent_at,subject,id) values (?,?,?,?,default) [22001-224]
+2026-04-07 00:51:32.704613+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BODY CHARACTER VARYING(255)": "U&'Dear London,\\000a\\000aWelcome to the Vartaalap Banking family!\\000a\\000aOur t... (764)"; SQL statement:
+insert into system_notification (body,recipient,sent_at,status,subject,id) values (?,?,?,?,?,default) [22001-224]
+2026-04-07 01:04:57.918843+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BODY CHARACTER VARYING(255)": "U&'Dear Meerut City,\\000a\\000aWelcome to the Vartaalap Banking family!\\000a\\000a... (774)"; SQL statement:
+insert into system_notification (body,recipient,sent_at,status,subject,id) values (?,?,?,?,?,default) [22001-224]
+2026-04-07 01:07:42.601724+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BODY CHARACTER VARYING(255)": "U&'Dear Meerut City,\\000a\\000aWelcome to the Vartaalap Banking family!\\000a\\000a... (771)"; SQL statement:
+insert into system_notification (body,recipient,sent_at,status,subject,id) values (?,?,?,?,?,default) [22001-224]
+2026-04-07 01:28:27.352899+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BODY CHARACTER VARYING(255)": "U&'Dear Meerut City,\\000a\\000aWelcome to the Vartaalap Banking family!\\000a\\000a... (776)"; SQL statement:
+insert into system_notification (body,recipient,sent_at,status,subject,id) values (?,?,?,?,?,default) [22001-224]
+2026-04-07 01:50:50.816826+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BODY CHARACTER VARYING(255)": "U&'Dear Meerut City,\\000a\\000aWelcome to the Vartaalap Banking family!\\000a\\000a... (777)"; SQL statement:
+insert into system_notification (body,recipient,sent_at,status,subject,id) values (?,?,?,?,?,default) [22001-224]
