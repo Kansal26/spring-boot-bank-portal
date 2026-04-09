@@ -1,0 +1,631 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.10/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ demo >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 26 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 53 source files with javac [debug release 17] to target/classes
+[WARNING] /Users/adikansal2608/Downloads/spring-boot-bank-portal-main-2/src/main/java/com/example/demo/config/SecurityConfig.java:[30,33] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demo ---
+[INFO] skip non existing resourceDirectory /Users/adikansal2608/Downloads/spring-boot-bank-portal-main-2/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ demo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ demo <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ demo ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v3.2.3)[0;39m
+
+[2m2026-04-07T02:36:01.102+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mcom.example.demo.DemoApplication        [0;39m [2m:[0;39m Starting DemoApplication using Java 24.0.1 with PID 39280 (/Users/adikansal2608/Downloads/spring-boot-bank-portal-main-2/target/classes started by adikansal2608 in /Users/adikansal2608/Downloads/spring-boot-bank-portal-main-2)
+[2m2026-04-07T02:36:01.103+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mcom.example.demo.DemoApplication        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2026-04-07T02:36:01.368+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2026-04-07T02:36:01.394+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 23 ms. Found 9 JPA repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/adikansal2608/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[2m2026-04-07T02:36:01.624+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2026-04-07T02:36:01.630+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2026-04-07T02:36:01.630+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2m2026-04-07T02:36:01.653+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2026-04-07T02:36:01.653+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 534 ms
+[2m2026-04-07T02:36:01.668+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2026-04-07T02:36:01.764+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/demo user=SA
+[2m2026-04-07T02:36:01.765+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2026-04-07T02:36:01.770+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m [2m:[0;39m H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/demo'
+[2m2026-04-07T02:36:01.825+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2026-04-07T02:36:01.851+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
+[2m2026-04-07T02:36:01.865+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2026-04-07T02:36:01.963+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2026-04-07T02:36:01.982+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36morg.hibernate.orm.deprecation           [0;39m [2m:[0;39m HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2m2026-04-07T02:36:02.367+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2026-04-07T02:36:02.388+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2026-04-07T02:36:02.675+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2026-04-07T02:36:02.720+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2026-04-07T02:36:02.806+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1415f18d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61c42e54, org.springframework.security.web.context.SecurityContextHolderFilter@373fb666, org.springframework.security.web.header.HeaderWriterFilter@6195ce27, org.springframework.web.filter.CorsFilter@533690d, org.springframework.security.web.csrf.CsrfFilter@1644cc2d, org.springframework.security.web.authentication.logout.LogoutFilter@d98ce13, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@32f2de5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bd53c5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38affd02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bf306d3, org.springframework.security.web.access.ExceptionTranslationFilter@65cf8da0, org.springframework.security.web.access.intercept.AuthorizationFilter@61e4a072]
+[2m2026-04-07T02:36:02.913+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path ''
+[2m2026-04-07T02:36:02.917+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[           main][0;39m [2m[0;39m[36mcom.example.demo.DemoApplication        [0;39m [2m:[0;39m Started DemoApplication in 1.962 seconds (process running for 2.102)
+ℹ️ User 'admin' already exists.
+ℹ️ User 'maker01' already exists.
+ℹ️ User 'approver01' already exists.
+ℹ️ User '0000' already exists. Updating details.
+ℹ️ User '1001' already exists. Updating details.
+ℹ️ User '1002' already exists. Updating details.
+ℹ️ User '1003' already exists. Updating details.
+ℹ️ User '2001' already exists. Updating details.
+ℹ️ User '3001' already exists. Updating details.
+[2m2026-04-07T02:36:32.704+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2026-04-07T02:36:32.705+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2026-04-07T02:36:32.710+05:30[0;39m [32m INFO[0;39m [35m39280[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 5 ms
+[2m2026-04-07T02:36:32.750+05:30[0;39m [32mDEBUG[0;39m [35m39280[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36morg.thymeleaf.TemplateEngine            [0;39m [2m:[0;39m [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+[2m2026-04-07T02:36:32.798+05:30[0;39m [32mDEBUG[0;39m [35m39280[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36morg.thymeleaf.TemplateEngine.CONFIG     [0;39m [2m:[0;39m Initializing Thymeleaf Template engine configuration...
+[THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Thymeleaf version: 3.1.2.RELEASE (built 2023-07-30T19:25:50+0000)
+[THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template resolvers:
+[THYMELEAF]     * org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers:
+[THYMELEAF]     * org.thymeleaf.spring6.messageresolver.SpringMessageResolver
+[THYMELEAF] * Link builders:
+[THYMELEAF]     * org.thymeleaf.linkbuilder.StandardLinkBuilder
+[THYMELEAF] * Dialect: SpringStandard (org.thymeleaf.spring6.dialect.SpringStandardDialect)
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include,data-th-include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert,data-th-insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace,data-th-replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each,data-th-each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch,data-th-switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case,data-th-case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if,data-th-if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless,data-th-unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object,data-th-object}] [500]: org.thymeleaf.spring6.processor.SpringObjectTagProcessor
+[THYMELEAF]             * [* {th:with,data-th-with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:attr,data-th-attr}] [700]: org.thymeleaf.standard.processor.StandardAttrTagProcessor
+[THYMELEAF]             * [* {th:attrprepend,data-th-attrprepend}] [800]: org.thymeleaf.standard.processor.StandardAttrprependTagProcessor
+[THYMELEAF]             * [* {th:attrappend,data-th-attrappend}] [900]: org.thymeleaf.standard.processor.StandardAttrappendTagProcessor
+[THYMELEAF]             * [* {th:method,data-th-method}] [990]: org.thymeleaf.spring6.processor.SpringMethodTagProcessor
+[THYMELEAF]             * [* {th:alt-title,data-th-alt-title}] [990]: org.thymeleaf.standard.processor.StandardAltTitleTagProcessor
+[THYMELEAF]             * [* {th:lang-xmllang,data-th-lang-xmllang}] [990]: org.thymeleaf.standard.processor.StandardLangXmlLangTagProcessor
+[THYMELEAF]             * [* {th:action,data-th-action}] [1000]: org.thymeleaf.spring6.processor.SpringActionTagProcessor
+[THYMELEAF]             * [* {th:href,data-th-href}] [1000]: org.thymeleaf.spring6.processor.SpringHrefTagProcessor
+[THYMELEAF]             * [* {th:src,data-th-src}] [1000]: org.thymeleaf.spring6.processor.SpringSrcTagProcessor
+[THYMELEAF]             * [* {th:hidden,data-th-hidden}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:controls,data-th-controls}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:ismap,data-th-ismap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:declare,data-th-declare}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:formnovalidate,data-th-formnovalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:async,data-th-async}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:loop,data-th-loop}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:seamless,data-th-seamless}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:readonly,data-th-readonly}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:required,data-th-required}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:defer,data-th-defer}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:reversed,data-th-reversed}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:checked,data-th-checked}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:open,data-th-open}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:disabled,data-th-disabled}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autoplay,data-th-autoplay}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:novalidate,data-th-novalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:default,data-th-default}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autofocus,data-th-autofocus}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:scoped,data-th-scoped}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:multiple,data-th-multiple}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:nowrap,data-th-nowrap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:pubdate,data-th-pubdate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:selected,data-th-selected}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:onbeforeunload,data-th-onbeforeunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragend,data-th-ondragend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeked,data-th-onseeked}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousedown,data-th-onmousedown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsuspend,data-th-onsuspend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsubmit,data-th-onsubmit}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragenter,data-th-ondragenter}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadedmetadata,data-th-onloadedmetadata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadstart,data-th-onloadstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onerror,data-th-onerror}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onvolumechange,data-th-onvolumechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onabort,data-th-onabort}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onoffline,data-th-onoffline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onclick,data-th-onclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeypress,data-th-onkeypress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreadystatechange,data-th-onreadystatechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstorage,data-th-onstorage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmessage,data-th-onmessage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onblur,data-th-onblur}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadeddata,data-th-onloadeddata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onprogress,data-th-onprogress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onafterprint,data-th-onafterprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreset,data-th-onreset}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplaythrough,data-th-oncanplaythrough}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousewheel,data-th-onmousewheel}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onfocus,data-th-onfocus}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragstart,data-th-ondragstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onforminput,data-th-onforminput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ononline,data-th-ononline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onratechange,data-th-onratechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeking,data-th-onseeking}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncontextmenu,data-th-oncontextmenu}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onemptied,data-th-onemptied}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onchange,data-th-onchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplay,data-th-oncanplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstalled,data-th-onstalled}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplaying,data-th-onplaying}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeydown,data-th-onkeydown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousemove,data-th-onmousemove}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeyup,data-th-onkeyup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplay,data-th-onplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onended,data-th-onended}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrag,data-th-ondrag}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseup,data-th-onmouseup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrop,data-th-ondrop}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onwaiting,data-th-onwaiting}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onselect,data-th-onselect}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninvalid,data-th-oninvalid}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseout,data-th-onmouseout}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragleave,data-th-ondragleave}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeprint,data-th-onbeforeprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpause,data-th-onpause}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseover,data-th-onmouseover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ontimeupdate,data-th-ontimeupdate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onresize,data-th-onresize}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onshow,data-th-onshow}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onscroll,data-th-onscroll}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onhashchange,data-th-onhashchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpopstate,data-th-onpopstate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onunload,data-th-onunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onload,data-th-onload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onformchange,data-th-onformchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondblclick,data-th-ondblclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragover,data-th-ondragover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onredo,data-th-onredo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninput,data-th-oninput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onundo,data-th-onundo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondurationchange,data-th-ondurationchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:inline,data-th-inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineHTMLTagProcessor
+[THYMELEAF]             * [* {th:type,data-th-type}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:name,data-th-name}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:compact,data-th-compact}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:data,data-th-data}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dropzone,data-th-dropzone}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:icon,data-th-icon}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:pattern,data-th-pattern}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:datetime,data-th-datetime}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cols,data-th-cols}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dir,data-th-dir}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:challenge,data-th-challenge}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:size,data-th-size}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:span,data-th-span}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formaction,data-th-formaction}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:wrap,data-th-wrap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:style,data-th-style}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:charset,data-th-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:classid,data-th-classid}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rules,data-th-rules}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellpadding,data-th-cellpadding}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:summary,data-th-summary}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accesskey,data-th-accesskey}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hreflang,data-th-hreflang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codebase,data-th-codebase}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:placeholder,data-th-placeholder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:high,data-th-high}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellspacing,data-th-cellspacing}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:width,data-th-width}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contenteditable,data-th-contenteditable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:abbr,data-th-abbr}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cite,data-th-cite}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:min,data-th-min}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:preload,data-th-preload}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:radiogroup,data-th-radiogroup}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:title,data-th-title}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:standby,data-th-standby}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:step,data-th-step}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codetype,data-th-codetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scope,data-th-scope}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scrolling,data-th-scrolling}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frame,data-th-frame}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:axis,data-th-axis}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:height,data-th-height}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:max,data-th-max}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scheme,data-th-scheme}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:archive,data-th-archive}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginwidth,data-th-marginwidth}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:form,data-th-form}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:low,data-th-low}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:maxlength,data-th-maxlength}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:enctype,data-th-enctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:colspan,data-th-colspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:start,data-th-start}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:id,data-th-id}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:list,data-th-list}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rowspan,data-th-rowspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:tabindex,data-th-tabindex}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sandbox,data-th-sandbox}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:lang,data-th-lang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:spellcheck,data-th-spellcheck}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:align,data-th-align}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:background,data-th-background}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:poster,data-th-poster}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frameborder,data-th-frameborder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rev,data-th-rev}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contextmenu,data-th-contextmenu}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:kind,data-th-kind}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:manifest,data-th-manifest}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:content,data-th-content}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rel,data-th-rel}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:label,data-th-label}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:keytype,data-th-keytype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:border,data-th-border}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:media,data-th-media}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:optimum,data-th-optimum}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formtarget,data-th-formtarget}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept,data-th-accept}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept-charset,data-th-accept-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:autocomplete,data-th-autocomplete}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:vspace,data-th-vspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:valuetype,data-th-valuetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:headers,data-th-headers}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formmethod,data-th-formmethod}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:for,data-th-for}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rows,data-th-rows}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:draggable,data-th-draggable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:target,data-th-target}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hspace,data-th-hspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sizes,data-th-sizes}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:class,data-th-class}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:longdesc,data-th-longdesc}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginheight,data-th-marginheight}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formenctype,data-th-formenctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:http-equiv,data-th-http-equiv}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:bgcolor,data-th-bgcolor}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:alt,data-th-alt}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:usemap,data-th-usemap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:srclang,data-th-srclang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:audio,data-th-audio}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:xmlbase,data-th-xmlbase}] [1000]: org.thymeleaf.standard.processor.StandardXmlBaseTagProcessor
+[THYMELEAF]             * [* {th:xmllang,data-th-xmllang}] [1000]: org.thymeleaf.standard.processor.StandardXmlLangTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:xmlspace,data-th-xmlspace}] [1000]: org.thymeleaf.standard.processor.StandardXmlSpaceTagProcessor
+[THYMELEAF]             * [{option} *] [1005]: org.thymeleaf.spring6.processor.SpringOptionInSelectFieldTagProcessor
+[THYMELEAF]             * [* {th:value,data-th-value}] [1010]: org.thymeleaf.spring6.processor.SpringValueTagProcessor
+[THYMELEAF]             * [* {th:classappend,data-th-classappend}] [1100]: org.thymeleaf.standard.processor.StandardClassappendTagProcessor
+[THYMELEAF]             * [* {th:styleappend,data-th-styleappend}] [1100]: org.thymeleaf.standard.processor.StandardStyleappendTagProcessor
+[THYMELEAF]             * [* {th:text,data-th-text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext,data-th-utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment,data-th-fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert,data-th-assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove,data-th-remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:errors,data-th-errors}] [1700]: org.thymeleaf.spring6.processor.SpringErrorsTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputCheckboxFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputFileFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputPasswordFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputRadioFieldTagProcessor
+[THYMELEAF]             * [{option} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringOptionFieldTagProcessor
+[THYMELEAF]             * [{select} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringSelectFieldTagProcessor
+[THYMELEAF]             * [{textarea} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringTextareaFieldTagProcessor
+[THYMELEAF]             * [* {th:uerrors,data-th-uerrors}] [1700]: org.thymeleaf.spring6.processor.SpringUErrorsTagProcessor
+[THYMELEAF]             * [* {th:errorclass,data-th-errorclass}] [1800]: org.thymeleaf.spring6.processor.SpringErrorClassTagProcessor
+[THYMELEAF]             * [* {th:ref,data-th-ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block,th-block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * DOCTYPE Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardTranslationDocTypeProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]             * [1100]: org.thymeleaf.standard.processor.StandardConditionalCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: XML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:attr}] [700]: org.thymeleaf.standard.processor.StandardAttrTagProcessor
+[THYMELEAF]             * [* {th:attrprepend}] [800]: org.thymeleaf.standard.processor.StandardAttrprependTagProcessor
+[THYMELEAF]             * [* {th:attrappend}] [900]: org.thymeleaf.standard.processor.StandardAttrappendTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineXMLTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: TEXT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: JAVASCRIPT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: CSS
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Expression Objects:
+[THYMELEAF]         * #ctx
+[THYMELEAF]         * #root
+[THYMELEAF]         * #vars
+[THYMELEAF]         * #object
+[THYMELEAF]         * #locale
+[THYMELEAF]         * #conversions
+[THYMELEAF]         * #uris
+[THYMELEAF]         * #temporals
+[THYMELEAF]         * #calendars
+[THYMELEAF]         * #dates
+[THYMELEAF]         * #bools
+[THYMELEAF]         * #numbers
+[THYMELEAF]         * #objects
+[THYMELEAF]         * #strings
+[THYMELEAF]         * #arrays
+[THYMELEAF]         * #lists
+[THYMELEAF]         * #sets
+[THYMELEAF]         * #maps
+[THYMELEAF]         * #aggregates
+[THYMELEAF]         * #messages
+[THYMELEAF]         * #ids
+[THYMELEAF]         * #execInfo
+[THYMELEAF]         * #request
+[THYMELEAF]         * #response
+[THYMELEAF]         * #session
+[THYMELEAF]         * #servletContext
+[THYMELEAF]         * #fields
+[THYMELEAF]         * #themes
+[THYMELEAF]         * #mvc
+[THYMELEAF]         * #requestdatavalues
+[THYMELEAF]     * Execution Attributes:
+[THYMELEAF]         * "StandardExpressionParser": Standard Expression Parser
+[THYMELEAF]         * "StandardJavaScriptSerializer": org.thymeleaf.standard.serializer.StandardJavaScriptSerializer@d1e5fd
+[THYMELEAF]         * "StandardCSSSerializer": org.thymeleaf.standard.serializer.StandardCSSSerializer@f412e38
+[THYMELEAF]         * "EnableSpringELCompiler": false
+[THYMELEAF]         * "StandardVariableExpressionEvaluator": SpringEL
+[THYMELEAF]         * "StandardConversionService": org.thymeleaf.spring6.expression.SpringStandardConversionService@3c3fb763
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+[2m2026-04-07T02:36:32.798+05:30[0;39m [32mDEBUG[0;39m [35m39280[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36morg.thymeleaf.TemplateEngine            [0;39m [2m:[0;39m [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+[2m2026-04-07T04:21:30.678+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m57s916ms).
+[2m2026-04-07T05:05:59.109+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m28s129ms).
+[2m2026-04-07T05:49:34.451+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m35s242ms).
+[2m2026-04-07T07:10:13.004+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m38s554ms).
+[2m2026-04-07T08:16:47.282+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m34s278ms).
+[2m2026-04-07T09:11:16.197+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m28s915ms).
+[2m2026-04-07T09:13:25.798+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s601ms).
+[2m2026-04-07T09:37:38.431+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m12s633ms).
+[2m2026-04-07T09:54:01.936+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m23s504ms).
+[2m2026-04-07T10:13:03.008+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m1s73ms).
+[2m2026-04-07T10:40:16.612+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m13s604ms).
+[2m2026-04-07T10:58:53.757+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m37s145ms).
+[2m2026-04-07T11:12:54.770+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m1s12ms).
+[2m2026-04-07T12:38:53.539+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s226ms).
+[2m2026-04-07T12:56:22.212+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s656ms).
+[2m2026-04-07T13:12:20.097+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s879ms).
+[2m2026-04-07T13:14:53.672+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s574ms).
+[2m2026-04-07T14:12:11.684+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m17s647ms).
+[2m2026-04-07T15:53:19.042+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s316ms).
+[2m2026-04-07T16:14:15.843+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m56s747ms).
+[2m2026-04-07T17:19:58.793+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m42s952ms).
+[2m2026-04-07T17:36:29.158+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m30s366ms).
+[2m2026-04-07T17:58:41.644+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m12s485ms).
+[2m2026-04-07T18:31:06.948+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m25s304ms).
+[2m2026-04-07T19:17:14.515+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m7s568ms).
+[2m2026-04-07T19:27:38.119+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m23s604ms).
+[2m2026-04-07T19:29:22.993+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s874ms).
+[2m2026-04-07T19:30:41.043+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s49ms).
+[2m2026-04-07T21:01:12.910+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m31s299ms).
+[2m2026-04-07T21:15:55.724+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m12s768ms).
+[2m2026-04-07T22:19:39.510+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m34s743ms).
+[2m2026-04-07T22:35:43.769+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s263ms).
+[2m2026-04-07T22:46:18.512+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m34s742ms).
+[2m2026-04-07T23:04:55.068+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m6s543ms).
+[2m2026-04-07T23:22:50.072+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m55s5ms).
+[2m2026-04-07T23:39:42.879+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m52s806ms).
+[2m2026-04-07T23:50:07.407+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m24s529ms).
+[2m2026-04-07T23:55:54.347+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m46s940ms).
+[2m2026-04-08T00:00:15.421+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s66ms).
+[2m2026-04-08T00:02:18.435+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s895ms).
+[2m2026-04-08T00:04:04.035+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s490ms).
+[2m2026-04-08T00:20:13.708+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s674ms).
+[2m2026-04-08T00:36:34.725+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m21s17ms).
+[2m2026-04-08T01:04:46.347+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m41s610ms).
+[2m2026-04-08T01:26:32.696+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m46s349ms).
+[2m2026-04-08T01:45:22.773+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m20s67ms).
+[2m2026-04-08T02:05:19.743+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m56s967ms).
+[2m2026-04-08T03:16:31.968+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s580ms).
+[2m2026-04-08T04:06:41.056+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s826ms).
+[2m2026-04-08T05:12:59.668+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m18s613ms).
+[2m2026-04-08T05:45:57.638+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m57s971ms).
+[2m2026-04-08T05:51:03.387+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m5s749ms).
+[2m2026-04-08T06:22:56.531+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m53s143ms).
+[2m2026-04-08T06:40:59.951+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m33s384ms).
+[2m2026-04-08T06:46:58.883+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m58s931ms).
+[2m2026-04-08T06:51:51.057+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m52s174ms).
+[2m2026-04-08T07:52:49.700+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s639ms).
+[2m2026-04-08T08:46:23.590+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m3s855ms).
+[2m2026-04-08T08:54:03.334+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m39s744ms).
+[2m2026-04-08T09:29:05.453+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m2s119ms).
+[2m2026-04-08T09:55:01.862+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m56s409ms).
+[2m2026-04-08T10:55:45.404+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m13s506ms).
+[2m2026-04-08T11:56:44.129+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s716ms).
+[2m2026-04-08T12:17:02.692+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m48s523ms).
+[2m2026-04-08T12:57:51.926+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m49s234ms).
+[2m2026-04-08T13:58:50.520+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28s582ms).
+[2m2026-04-08T14:48:50.449+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m29s889ms).
+[2m2026-04-08T15:15:39.174+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m18s711ms).
+[2m2026-04-08T16:00:53.408+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m14s234ms).
+[2m2026-04-08T16:14:41.221+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m47s813ms).
+[2m2026-04-08T16:32:50.511+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m9s290ms).
+[2m2026-04-08T17:01:59.028+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m8s517ms).
+[2m2026-04-08T17:33:45.115+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m46s87ms).
+[2m2026-04-08T18:02:57.548+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m12s432ms).
+[2m2026-04-08T18:16:02.238+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m4s591ms).
+[2m2026-04-08T18:53:19.320+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m17s81ms).
+[2m2026-04-08T19:07:47.737+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m58s336ms).
+[2m2026-04-08T19:26:59.105+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s220ms).
+[2m2026-04-08T19:31:59.751+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s616ms).
+[2m2026-04-08T19:34:00.460+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s694ms).
+[2m2026-04-08T19:36:47.306+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m46s844ms).
+[2m2026-04-08T20:34:03.751+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s698ms).
+[2m2026-04-08T20:50:39.052+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s301ms).
+[2m2026-04-08T21:02:35.920+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m56s868ms).
+[2m2026-04-08T23:11:16.521+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s634ms).
+[2m2026-04-08T23:18:03.167+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m46s628ms).
+[2m2026-04-09T00:04:09.785+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m36s330ms).
+[2m2026-04-09T00:07:16.426+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m6s650ms).
+[2m2026-04-09T00:08:48.893+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s462ms).
+[2m2026-04-09T00:27:05.756+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m16s864ms).
+[2m2026-04-09T00:45:25.918+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m20s162ms).
+[2m2026-04-09T01:23:14.843+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m48s923ms).
+[2m2026-04-09T01:48:59.416+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m44s422ms).
+[2m2026-04-09T01:57:12.481+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m13s3ms).
+[2m2026-04-09T02:05:25.253+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s709ms).
+[2m2026-04-09T02:17:38.677+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s297ms).
+[2m2026-04-09T02:37:05.164+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m26s398ms).
+[2m2026-04-09T03:27:58.796+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m53s671ms).
+[2m2026-04-09T03:44:46.502+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m47s708ms).
+[2m2026-04-09T04:51:42.887+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m56s386ms).
+[2m2026-04-09T04:57:29.926+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m47s38ms).
+[2m2026-04-09T05:20:58.333+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m28s407ms).
+[2m2026-04-09T05:56:27.470+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m59s124ms).
+[2m2026-04-09T06:22:00.157+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m32s687ms).
+[2m2026-04-09T06:39:59.171+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m59s15ms).
+[2m2026-04-09T06:57:38.898+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m39s727ms).
+[2m2026-04-09T07:41:04.085+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m25s187ms).
+[2m2026-04-09T08:14:19.591+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m15s506ms).
+[2m2026-04-09T08:57:59.734+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m40s143ms).
+[2m2026-04-09T09:16:15.457+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m15s723ms).
+[2m2026-04-09T09:41:20.068+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m4s611ms).
+[2m2026-04-09T10:15:50.440+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m30s372ms).
+[2m2026-04-09T10:25:24.295+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m33s854ms).
+[2m2026-04-09T11:21:06.323+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m12s17ms).
+[2m2026-04-09T11:26:25.949+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m19s627ms).
+[2m2026-04-09T12:27:34.327+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h38s368ms).
+[2m2026-04-09T13:00:03.803+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m29s476ms).
+[2m2026-04-09T13:28:29.682+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m25s879ms).
+[2m2026-04-09T13:46:09.425+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m39s743ms).
+[2m2026-04-09T14:29:35.741+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m26s316ms).
+[2m2026-04-09T15:02:17.806+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m42s65ms).
+[2m2026-04-09T15:30:40.247+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m22s441ms).
+[2m2026-04-09T16:31:23.718+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h43s471ms).
+[2m2026-04-09T17:10:54.968+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m1s242ms).
+[2m2026-04-09T17:11:59.176+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s208ms).
+[2m2026-04-09T17:32:21.063+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m21s887ms).
+[2m2026-04-09T18:07:31.683+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m40s608ms).
+[2m2026-04-09T18:33:41.180+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m9s497ms).
+[2m2026-04-09T18:38:27.352+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m46s171ms).
+[2m2026-04-09T19:34:21.474+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m54s123ms).
+[2m2026-04-09T19:56:38.381+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m46s898ms).
+[2m2026-04-09T20:31:43.614+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m5s233ms).
+[2m2026-04-09T20:35:46.356+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m2s742ms).
+[2m2026-04-09T21:02:35.815+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m49s459ms).
+[2m2026-04-09T22:07:47.611+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m41s794ms).
+[2m2026-04-09T22:37:05.153+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m17s543ms).
+[2m2026-04-09T23:38:08.674+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m3s520ms).
+[2m2026-04-10T00:17:21.361+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m12s688ms).
+[2m2026-04-10T00:39:02.954+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m41s593ms).
+[2m2026-04-10T01:26:54.936+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m51s982ms).
+[2m2026-04-10T02:01:25.748+05:30[0;39m [33m WARN[0;39m [35m39280[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [2m[0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m30s812ms).
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2 d 23:27 h
+[INFO] Finished at: 2026-04-10T02:03:31+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project demo: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
