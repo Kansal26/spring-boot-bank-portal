@@ -476,3 +476,4 @@ WARNING: Restricted methods will be blocked in a future release unless native ac
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 [2m2026-04-14T18:49:26.750+05:30[0;39m [32mDEBUG[0;39m [35m79268[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [2m[0;39m[36morg.thymeleaf.TemplateEngine            [0;39m [2m:[0;39m [THYMELEAF] TEMPLATE ENGINE INITIALIZED
 [2m2026-04-14T18:59:09.500+05:30[0;39m [33m WARN[0;39m [35m79268[0;39m [2m---[0;39m [2m[   scheduling-1][0;39m [2m[0;39m[36mc.example.demo.service.KeepAliveService [0;39m [2m:[0;39m ⚠️ APP_URL environment variable is not set. Self-ping skipped.
+[2m2026-04-14T19:09:09.511+05:30[0;39m [33m WARN[0;39m [35m79268[0;39m [2m---[0;39m [2m[   scheduling-1][0;39m [2m[0;39m[36mc.example.demo.service.KeepAliveService [0;39m [2m:[0;39m ⚠️ APP_URL environment variable is not set. Self-ping skipped.
